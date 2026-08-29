@@ -1,3 +1,25 @@
+# Julius Olugbade — Master Image Prompts
+
+> **Master filename convention:** Every individual image prompt must begin with an HTML comment containing the **exact output filename**. The filename in that comment is authoritative and must be used exactly when saving the generated image.
+
+Example:
+
+```markdown
+<!-- FILE: jo-home-hero-01.webp -->
+
+Create the image...
+```
+
+> **Website location convention:** Generated images belong under the website's `assets/images/` directory, using the exact folder specified for each image entry.
+
+---
+
+<!-- IMAGE FILENAME CONVENTION:
+Every image prompt must begin with an HTML comment containing the exact output filename:
+<!-- FILE: exact-filename.webp -->
+This filename is authoritative and must be used exactly when saving the generated image.
+-->
+
 # NANO BANANA PRO IMAGE PROMPTS — JULIUSOLUGBADE.COM
 
 These prompts are production documentation, not website copy. Julius-specific imagery must use an authentic supplied Dr. Julius Olugbade reference image when one is available. Do not generate a different person and label him Julius.
