@@ -44,3 +44,20 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
 @media(max-width:900px){.nav-toggle{display:block}.nav-links{display:none;position:absolute;top:78px;left:0;right:0;background:var(--jo-primary);padding:18px 20px;flex-direction:column;align-items:flex-start}.nav-links.is-open{display:flex}.hero-grid,.section-head,.split,.detail-grid{grid-template-columns:1fr}.grid-4{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:repeat(2,1fr)}.sticky{position:static}}
 @media(max-width:620px){.container{width:min(calc(100% - 28px),var(--max))}.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}.hero{padding:65px 0}.hero h1{font-size:3.2rem}.footer-grid{grid-template-columns:1fr}.footer-bottom,.band-grid{display:grid}.cookie{left:10px;right:10px;bottom:10px;display:grid}.image-stage{min-height:300px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.card{transition:none}}
+
+
+/* Footer legal links — horizontal desktop layout */
+.footer-legal-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem 1.25rem;
+}
+
+/* Mobile: allow clean wrapping without cramped links */
+@media (max-width: 767px) {
+    .footer-legal-links {
+        gap: 0.5rem 0.9rem;
+    }
+}
