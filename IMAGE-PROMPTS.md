@@ -277,3 +277,24 @@ Before placing an image on the website:
 - [ ] Website path has been tested.
 
 **This document is the authoritative image-generation and image-placement specification for JuliusOlugbade.com.**
+
+
+---
+
+## WEBSITE WIRING STATUS
+
+The website HTML contains a dedicated image slot for each production asset. The slot is placed in the intended semantic page/section rather than appended to the bottom of the page.
+
+### Home
+- `jo-home-hero-01.jpg` → Home hero, right-side visual panel.
+- `jo-home-advisory-01.jpg` → Home professional thesis / advisory capability section.
+- `jo-home-audit-01.jpg` → Home selected professional experience / audit section.
+- `jo-home-training-01.jpg` → Home academic authority / professional knowledge section.
+
+### About
+- `jo-about-portrait-01.jpg` → About primary profile block.
+- `jo-about-professional-02.jpg` → About/Career professional experience.
+- `jo-about-academic-03.jpg` → About/Education academic background.
+
+### Critical implementation rule
+The HTML references the exact JPG path. When the correctly named JPG is placed in that exact folder, it renders in the corresponding slot. Missing assets are removed by the image loader so they cannot create broken-image gaps.
