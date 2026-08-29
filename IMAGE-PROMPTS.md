@@ -1,9 +1,9 @@
 # NANO BANANA PRO IMAGE PROMPTS — JULIUSOLUGBADE.COM
 
-These prompts are production documentation, not website copy. Julius-specific imagery must use an authentic supplied Julius Olugbade reference image when one is available. Do not generate a different person and label him Julius.
+These prompts are production documentation, not website copy. Julius-specific imagery must use an authentic supplied Dr. Julius Olugbade reference image when one is available. Do not generate a different person and label him Julius.
 
 ## HOME — Hero Portrait / Executive Environment
-Photorealistic high-end editorial portrait of the supplied Julius Olugbade reference identity in a sophisticated Nigerian professional environment, senior accounting/audit/finance context, calm intelligent expression, tailored professional clothing, natural skin texture, realistic anatomy and hands, premium directional natural light, restrained blue-led environment using Deep Royal Blue #090C9B, Strong Blue #3066BE, Powder Blue #B4C5E3 and Warm Ivory #FBFFF1, contemporary editorial composition, generous negative space for website typography, 8K-quality intent, no fake text, no logos, no distorted face, no artificial skin, no clichés.
+Photorealistic high-end editorial portrait of the supplied Dr. Julius Olugbade reference identity in a sophisticated Nigerian professional environment, senior accounting/audit/finance context, calm intelligent expression, tailored professional clothing, natural skin texture, realistic anatomy and hands, premium directional natural light, restrained blue-led environment using Deep Royal Blue #090C9B, Strong Blue #3066BE, Powder Blue #B4C5E3 and Warm Ivory #FBFFF1, contemporary editorial composition, generous negative space for website typography, 8K-quality intent, no fake text, no logos, no distorted face, no artificial skin, no clichés.
 
 ## HOME — Advisory Meeting
 Photorealistic Nigerian/African professional advisory meeting, senior finance/audit discussion around documents and a laptop, authentic workplace, natural expressions, realistic hands, sophisticated editorial corporate photography, warm ivory environment with controlled Julius blue accents, 8K-quality intent, no calculator/coins/handshake cliché, no readable fake document text.
@@ -54,7 +54,7 @@ Photorealistic editorial scene of senior African professionals analysing economi
 Photorealistic academic research environment, Nigerian accounting researcher reviewing papers and analytical notes, natural desk light, thoughtful expression, premium editorial style, no fake article titles.
 
 ## ABOUT — Executive Portrait
-Use the supplied Julius Olugbade identity reference; photorealistic refined executive portrait, warm ivory background, subtle deep royal blue architectural element, authentic age characteristics and facial identity preserved, natural expression, no identity drift.
+Use the supplied Dr. Julius Olugbade identity reference; photorealistic refined executive portrait, warm ivory background, subtle deep royal blue architectural element, authentic age characteristics and facial identity preserved, natural expression, no identity drift.
 
 ## ABOUT — Academic Setting
 Use supplied Julius identity reference where applicable; photorealistic academic professional environment, lecturer/researcher context, Nigerian university setting, natural light, realistic people, no fake institutional branding.

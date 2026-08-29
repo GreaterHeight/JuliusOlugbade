@@ -141,3 +141,21 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
         gap: 0.4rem 0.8rem;
     }
 }
+
+/* Current professional status */
+.current-status {
+    margin: 0.65rem 0 0;
+    color: var(--jo-support);
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.current-role {
+    margin-bottom: 2.5rem;
+    border-left: 3px solid var(--jo-secondary);
+}
+
+.current-role h2 {
+    margin: 0.35rem 0 0.2rem;
+}

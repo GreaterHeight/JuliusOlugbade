@@ -7,7 +7,7 @@ Pure HTML5 + CSS3 + vanilla JavaScript. No framework or build step.
 Upload the complete folder to any static host. The site is structured for root deployment at `https://juliusolugbade.com/`.
 
 ## Important before public launch
-1. Replace/insert authentic Julius Olugbade photographs in the approved image locations if supplied.
+1. Replace/insert authentic Dr. Julius Olugbade photographs in the approved image locations if supplied.
 2. Confirm the official public business address.
 3. Confirm the official current professional designation.
 4. Confirm the intended scope of Alumni and Global Alliances.
