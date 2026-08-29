@@ -68,82 +68,62 @@ No distorted anatomy, malformed hands, duplicate people, waxy skin, artificial f
 
 ---
 
-# Website Image Wiring Contract
+# FINAL WEBSITE IMAGE WIRING CONTRACT — v3.2
 
-The following rules are mandatory for all generated website imagery:
+**JPG is the authoritative master/source format.** The exact filename in each prompt heading is the filename to generate and use. Copy that JPG into the exact folder below. The website is wired to the same exact relative path.
 
-1. **JPG is the authoritative master/source format.**
-2. The exact filename in each prompt heading is the filename to use.
-3. Each generated JPG must be copied into the exact folder shown in the asset map.
-4. The HTML pages are wired to those exact paths.
-5. Therefore, after a correctly named JPG is copied into its specified folder, the corresponding HTML image reference resolves automatically.
-6. Do not rename the image after generation.
-7. Do not place these assets in the website root or an arbitrary images folder.
-8. WebP may be generated later as a performance derivative, but it does not replace the JPG master.
+### Core workflow
 
-## Exact Asset Map
+**Generate → use the exact prompt filename → copy into the exact folder → the website slot displays it automatically.**
 
-### `home/`
+The website deliberately hides an image slot until its exact JPG exists and successfully loads. Therefore, missing future images cannot create broken-image icons, alt-text fragments, or unexplained blank vertical space.
 
-- `jo-home-hero-01.jpg` → `assets/images/julius-olugbade/home/jo-home-hero-01.jpg` — Homepage hero
-- `jo-home-advisory-01.jpg` → `assets/images/julius-olugbade/home/jo-home-advisory-01.jpg` — Homepage advisory expertise
-- `jo-home-audit-01.jpg` → `assets/images/julius-olugbade/home/jo-home-audit-01.jpg` — Homepage audit and assurance
-- `jo-home-training-01.jpg` → `assets/images/julius-olugbade/home/jo-home-training-01.jpg` — Homepage training / professional knowledge
+### Exact 31-asset map
 
-### `about/`
+| Exact JPG filename | Exact folder | Intended website placement |
+|---|---|---|
+| `jo-home-hero-01.jpg` | `assets/images/julius-olugbade/home/` | Home → hero |
+| `jo-home-advisory-01.jpg` | `assets/images/julius-olugbade/home/` | Home → professional thesis / capability section |
+| `jo-home-audit-01.jpg` | `assets/images/julius-olugbade/home/` | Home → selected professional experience |
+| `jo-home-training-01.jpg` | `assets/images/julius-olugbade/home/` | Home → academic authority / knowledge section |
+| `jo-about-portrait-01.jpg` | `assets/images/julius-olugbade/about/` | About → profile overview |
+| `jo-about-professional-02.jpg` | `assets/images/julius-olugbade/about/` | About → Career Journey |
+| `jo-about-academic-03.jpg` | `assets/images/julius-olugbade/about/` | About → Academic Background |
+| `jo-services-audit-01.jpg` | `assets/images/julius-olugbade/services/` | Services → Audit & Internal Audit |
+| `jo-services-finance-02.jpg` | `assets/images/julius-olugbade/services/` | Services → Finance, IFRS & Financial Reporting |
+| `jo-services-risk-03.jpg` | `assets/images/julius-olugbade/services/` | Services → Risk Management & Compliance |
+| `jo-services-training-04.jpg` | `assets/images/julius-olugbade/services/` | Services → Leadership, Accounting & Professional Training |
+| `jo-industry-banking-01.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Banking & Financial Institutions |
+| `jo-industry-real-estate-02.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Construction & Real Estate |
+| `jo-industry-technology-03.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Technology & Telecommunications |
+| `jo-industry-aviation-04.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Aviation & Transport |
+| `jo-industry-pharma-05.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Pharmaceutical / Healthcare |
+| `jo-industry-finance-logistics-06.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Finance, Leasing & Logistics |
+| `jo-industry-academia-07.jpg` | `assets/images/julius-olugbade/industries/` | Industries → Academia & Professional Education |
+| `jo-insights-editorial-01.jpg` | `assets/images/julius-olugbade/insights/` | Discourse → landing/editorial section |
+| `jo-insights-boardroom-02.jpg` | `assets/images/julius-olugbade/insights/` | Discourse → Leadership & Business Management |
+| `jo-insights-research-03.jpg` | `assets/images/julius-olugbade/insights/` | Discourse → Research & Publications |
+| `jo-insights-regulatory-04.jpg` | `assets/images/julius-olugbade/insights/` | Discourse → Risk & Compliance |
+| `jo-insights-economic-05.jpg` | `assets/images/julius-olugbade/insights/` | Discourse → Economic Emerging Issues |
+| `jo-career-executive-01.jpg` | `assets/images/julius-olugbade/career/` | About → Career Journey / executive identity |
+| `jo-career-audit-02.jpg` | `assets/images/julius-olugbade/career/` | About → Career Journey / audit experience |
+| `jo-career-leadership-03.jpg` | `assets/images/julius-olugbade/career/` | About → Career Journey / leadership experience |
+| `jo-education-01.jpg` | `assets/images/julius-olugbade/education/` | About → Academic Background |
+| `jo-research-01.jpg` | `assets/images/julius-olugbade/research/` | About → Publications & Research |
+| `jo-training-01.jpg` | `assets/images/julius-olugbade/training/` | Services → Leadership, Accounting & Professional Training |
+| `jo-contact-01.jpg` | `assets/images/julius-olugbade/contact/` | Contact → Professional Conversation |
+| `jo-og-default-01.jpg` | `assets/images/julius-olugbade/shared/` | Site-wide og:image / twitter:image; not a visible page image |
 
-- `jo-about-portrait-01.jpg` → `assets/images/julius-olugbade/about/jo-about-portrait-01.jpg` — About primary profile
-- `jo-about-professional-02.jpg` → `assets/images/julius-olugbade/about/jo-about-professional-02.jpg` — About professional experience
-- `jo-about-academic-03.jpg` → `assets/images/julius-olugbade/about/jo-about-academic-03.jpg` — About academic experience
+### Implementation rules
 
-### `services/`
+- Do **not** append generated images as a generic gallery at the bottom of `<main>`.
+- Each image is inserted at the semantic location stated above.
+- Missing images are removed from the DOM by the image loader, so the existing page layout remains intact until an image is supplied.
+- Successfully loaded images are responsive and use lazy loading.
+- `jo-og-default-01.jpg` is metadata-only and is not intended to render visibly on the page.
+- WebP may be generated as a derivative for performance, but the JPG remains the authoritative master and prompt filename.
 
-- `jo-services-audit-01.jpg` → `assets/images/julius-olugbade/services/jo-services-audit-01.jpg` — Services audit and assurance
-- `jo-services-finance-02.jpg` → `assets/images/julius-olugbade/services/jo-services-finance-02.jpg` — Services finance and financial reporting
-- `jo-services-risk-03.jpg` → `assets/images/julius-olugbade/services/jo-services-risk-03.jpg` — Services risk, compliance and internal control
-- `jo-services-training-04.jpg` → `assets/images/julius-olugbade/services/jo-services-training-04.jpg` — Services training and professional knowledge
 
-### `industries/`
+### Existing OG asset note
 
-- `jo-industry-banking-01.jpg` → `assets/images/julius-olugbade/industries/jo-industry-banking-01.jpg` — Industries banking and financial services
-- `jo-industry-real-estate-02.jpg` → `assets/images/julius-olugbade/industries/jo-industry-real-estate-02.jpg` — Industries real estate
-- `jo-industry-technology-03.jpg` → `assets/images/julius-olugbade/industries/jo-industry-technology-03.jpg` — Industries technology and telecommunications
-- `jo-industry-aviation-04.jpg` → `assets/images/julius-olugbade/industries/jo-industry-aviation-04.jpg` — Industries aviation and transport
-- `jo-industry-pharma-05.jpg` → `assets/images/julius-olugbade/industries/jo-industry-pharma-05.jpg` — Industries pharmaceutical and healthcare
-- `jo-industry-finance-logistics-06.jpg` → `assets/images/julius-olugbade/industries/jo-industry-finance-logistics-06.jpg` — Industries finance and logistics
-- `jo-industry-academia-07.jpg` → `assets/images/julius-olugbade/industries/jo-industry-academia-07.jpg` — Industries academia
-
-### `insights/`
-
-- `jo-insights-editorial-01.jpg` → `assets/images/julius-olugbade/insights/jo-insights-editorial-01.jpg` — Insights editorial analysis
-- `jo-insights-boardroom-02.jpg` → `assets/images/julius-olugbade/insights/jo-insights-boardroom-02.jpg` — Insights boardroom discussion
-- `jo-insights-research-03.jpg` → `assets/images/julius-olugbade/insights/jo-insights-research-03.jpg` — Insights research
-- `jo-insights-regulatory-04.jpg` → `assets/images/julius-olugbade/insights/jo-insights-regulatory-04.jpg` — Insights regulatory and compliance
-- `jo-insights-economic-05.jpg` → `assets/images/julius-olugbade/insights/jo-insights-economic-05.jpg` — Insights economic analysis
-
-### `career/`
-
-- `jo-career-executive-01.jpg` → `assets/images/julius-olugbade/career/jo-career-executive-01.jpg` — Career executive identity
-- `jo-career-audit-02.jpg` → `assets/images/julius-olugbade/career/jo-career-audit-02.jpg` — Career audit experience
-- `jo-career-leadership-03.jpg` → `assets/images/julius-olugbade/career/jo-career-leadership-03.jpg` — Career leadership
-
-### `education/`
-
-- `jo-education-01.jpg` → `assets/images/julius-olugbade/education/jo-education-01.jpg` — Education academic practice
-
-### `research/`
-
-- `jo-research-01.jpg` → `assets/images/julius-olugbade/research/jo-research-01.jpg` — Research and publications
-
-### `training/`
-
-- `jo-training-01.jpg` → `assets/images/julius-olugbade/training/jo-training-01.jpg` — Training professional learning
-
-### `contact/`
-
-- `jo-contact-01.jpg` → `assets/images/julius-olugbade/contact/jo-contact-01.jpg` — Contact professional consultation
-
-### `shared/`
-
-- `jo-og-default-01.jpg` → `assets/images/julius-olugbade/shared/jo-og-default-01.jpg` — Default Open Graph image
-
+The website package contains `jo-og-default-01.jpg` as the current social-sharing master. It was converted from the earlier WebP derivative solely to maintain continuity; future generated assets must follow the exact JPG prompt filenames.

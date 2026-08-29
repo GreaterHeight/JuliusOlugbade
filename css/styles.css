@@ -278,26 +278,13 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
     }
 }
 
-/* JuliusOlugbade image asset system */
-.jo-wired-image {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    border-radius: 2px;
-}
-.jo-wired-image img {
-    display: block;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 10;
-    object-fit: cover;
-}
-.jo-wired-image.jo-hero img {
-    aspect-ratio: 16 / 9;
-}
-.jo-wired-image.jo-portrait img {
-    aspect-ratio: 4 / 5;
-}
-.jo-wired-image.jo-og {
-    display: none;
-}
+
+/* Generated image slots: invisible until the exact JPG exists and loads. */
+.jo-image-slot{display:none;margin:1.5rem 0;overflow:hidden;border-radius:2px;}
+.jo-image-slot.is-loaded{display:block;}
+.jo-image-slot img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;}
+.jo-image-slot.jo-image-hero img{aspect-ratio:16/9;}
+.jo-image-slot.jo-image-portrait img{aspect-ratio:4/5;}
+.jo-image-slot figcaption{margin-top:.5rem;font-size:.72rem;line-height:1.45;opacity:.68;}
+.hero-panel .jo-image-slot{margin-top:1.25rem;}
+@media(max-width:767px){.jo-image-slot{margin:1rem 0}.jo-image-slot img{aspect-ratio:4/3}.jo-image-slot.jo-image-portrait img{aspect-ratio:4/5;}}
