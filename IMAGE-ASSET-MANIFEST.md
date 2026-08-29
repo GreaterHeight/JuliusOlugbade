@@ -10,8 +10,8 @@ Replace each `.PLACEHOLDER` marker with the generated JPG using the exact filena
 
 ## about/
 - `jo-about-portrait-01.jpg` — About page primary executive portrait — `assets/images/julius-olugbade/about/jo-about-portrait-01.jpg`
-- `jo-about-professional-02.jpg` — About page professional experience section — `assets/images/julius-olugbade/about/jo-about-professional-02.jpg`
-- `jo-about-academic-03.jpg` — About page academic experience section — `assets/images/julius-olugbade/about/jo-about-academic-03.jpg`
+- `jo-about-professional-02.jpg` — About page professional experience — visible in the Professional Practice feature section section — `assets/images/julius-olugbade/about/jo-about-professional-02.jpg`
+- `jo-about-academic-03.jpg` — About page academic experience — visible in the Academic Formation feature section section — `assets/images/julius-olugbade/about/jo-about-academic-03.jpg`
 
 ## services/
 - `jo-services-audit-01.jpg` — Audit & Assurance service — `assets/images/julius-olugbade/services/jo-services-audit-01.jpg`
