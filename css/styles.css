@@ -159,3 +159,111 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
 .current-role h2 {
     margin: 0.35rem 0 0.2rem;
 }
+
+
+/* Homepage hero — prominent current professional status */
+.hero .current-status {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    margin: 0.85rem 0 0.35rem;
+    color: var(--jo-ivory);
+    line-height: 1.35;
+}
+
+.hero .current-status strong {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.hero .current-status span {
+    font-size: 0.86rem;
+    color: var(--jo-support);
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .hero .current-status {
+        margin-top: 0.7rem;
+    }
+}
+
+
+/* Floating WhatsApp chat */
+.whatsapp-float {
+    position: fixed;
+    left: 22px;
+    bottom: 22px;
+    z-index: 9999;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 52px;
+    padding: 9px 15px 9px 10px;
+    border-radius: 999px;
+    background: #25D366;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 11px 30px rgba(0, 0, 0, 0.24);
+}
+
+.whatsapp-float:focus-visible {
+    outline: 3px solid rgba(255, 255, 255, 0.9);
+    outline-offset: 3px;
+}
+
+.whatsapp-float-icon {
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.whatsapp-float-icon svg {
+    width: 21px;
+    height: 21px;
+    fill: currentColor;
+}
+
+.whatsapp-float-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .whatsapp-float {
+        left: 14px;
+        bottom: 14px;
+        min-height: 48px;
+        padding: 7px;
+    }
+
+    .whatsapp-float-icon {
+        width: 34px;
+        height: 34px;
+    }
+
+    .whatsapp-float-label {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .whatsapp-float {
+        transition: none;
+    }
+}
