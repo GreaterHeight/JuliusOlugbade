@@ -301,86 +301,44 @@ The HTML references the exact JPG path. When the correctly named JPG is placed i
 
 
 ---
-# FINAL IMAGE IMPLEMENTATION CONTRACT
+# DEFINITIVE WEBSITE PLACEMENT CONTRACT
 
+The image architecture is **semantic, not gallery-based**. Each image is wired to the exact section/component described below. A correctly named JPG placed in its exact folder is automatically rendered by the existing HTML slot; no HTML editing is required. If the JPG is not yet present, its individual slot remains hidden and the page layout is unaffected.
 
-**JPG is the authoritative master format.** Every prompt must begin with the exact filename in backticks and an OUTPUT FILENAME comment, for example:
+| Filename | Folder | Page | Exact placement |
+|---|---|---|---|
+| `jo-home-hero-01.jpg` | `home/` | Home | Hero professional identity visual |
+| `jo-home-advisory-01.jpg` | `home/` | Home | Professional thesis / advisory section |
+| `jo-home-audit-01.jpg` | `home/` | Home | Selected professional experience / evidence section |
+| `jo-home-training-01.jpg` | `home/` | Home | Research, teaching & professional knowledge section |
+| `jo-about-portrait-01.jpg` | `about/` | About | Primary executive profile |
+| `jo-about-professional-02.jpg` | `about/` | About | Professional practice / career context |
+| `jo-about-academic-03.jpg` | `about/` | About | Academic formation / teaching context |
+| `jo-services-audit-01.jpg` | `services/` | Services | Audit & Internal Audit card + detail page |
+| `jo-services-finance-02.jpg` | `services/` | Services | Finance, IFRS & Financial Reporting card + detail page |
+| `jo-services-risk-03.jpg` | `services/` | Services | Risk Management & Compliance card + detail page |
+| `jo-services-training-04.jpg` | `services/` | Services | Leadership, Accounting & Professional Training card + detail page |
+| `jo-industry-banking-01.jpg` | `industries/` | Industries | Banking & Financial Institutions card + detail page |
+| `jo-industry-real-estate-02.jpg` | `industries/` | Industries | Construction & Real Estate card + detail page |
+| `jo-industry-technology-03.jpg` | `industries/` | Industries | Technology & Telecommunications card + detail page |
+| `jo-industry-aviation-04.jpg` | `industries/` | Industries | Aviation & Transport card + detail page |
+| `jo-industry-pharma-05.jpg` | `industries/` | Industries | Pharmaceutical / Healthcare card + detail page |
+| `jo-industry-finance-logistics-06.jpg` | `industries/` | Industries | Finance, Leasing & Logistics card + detail page |
+| `jo-industry-academia-07.jpg` | `industries/` | Industries | Academia & Professional Education card + detail page |
+| `jo-insights-editorial-01.jpg` | `insights/` | Discourse | Discourse landing editorial visual |
+| `jo-insights-boardroom-02.jpg` | `insights/` | Discourse | Leadership & Business Management detail |
+| `jo-insights-research-03.jpg` | `insights/` | Discourse | Research & Publications detail |
+| `jo-insights-regulatory-04.jpg` | `insights/` | Discourse | Risk & Compliance detail |
+| `jo-insights-economic-05.jpg` | `insights/` | Discourse | Economic & Emerging Issues detail |
+| `jo-career-executive-01.jpg` | `career/` | Career | Executive identity context |
+| `jo-career-audit-02.jpg` | `career/` | Career | Audit experience context |
+| `jo-career-leadership-03.jpg` | `career/` | Career | Leadership experience context |
+| `jo-education-01.jpg` | `education/` | Education | Academic practice section |
+| `jo-research-01.jpg` | `research/` | Publications & Research | Research / publications context |
+| `jo-training-01.jpg` | `training/` | Training | Professional learning visual; used on the training capability page in the current site architecture |
+| `jo-contact-01.jpg` | `contact/` | Contact | Professional conversation / contact section |
+| `jo-og-default-01.jpg` | `shared/` | All pages | Open Graph metadata only; never a visible page image |
 
+## Non-negotiable implementation rule
 
-### `jo-home-hero-01.jpg` — Homepage hero / principal professional identity visual (16:9 master)
-<!-- OUTPUT FILENAME: jo-home-hero-01.jpg -->
-
-
-Create the image...
-
-
-After generation, copy the JPG to the exact folder specified in this document. **No HTML editing is required.** The website is wired to the canonical path and will display the image automatically when the file exists. WebP may be generated only as a later performance derivative.
-
-
-## Canonical folders
-
-
-### `home/`
-
-- `jo-home-hero-01.jpg` → `assets/images/julius-olugbade/home/jo-home-hero-01.jpg`
-- `jo-home-advisory-01.jpg` → `assets/images/julius-olugbade/home/jo-home-advisory-01.jpg`
-- `jo-home-audit-01.jpg` → `assets/images/julius-olugbade/home/jo-home-audit-01.jpg`
-- `jo-home-training-01.jpg` → `assets/images/julius-olugbade/home/jo-home-training-01.jpg`
-
-### `about/`
-
-- `jo-about-portrait-01.jpg` → `assets/images/julius-olugbade/about/jo-about-portrait-01.jpg`
-- `jo-about-professional-02.jpg` → `assets/images/julius-olugbade/about/jo-about-professional-02.jpg`
-- `jo-about-academic-03.jpg` → `assets/images/julius-olugbade/about/jo-about-academic-03.jpg`
-
-### `services/`
-
-- `jo-services-audit-01.jpg` → `assets/images/julius-olugbade/services/jo-services-audit-01.jpg`
-- `jo-services-finance-02.jpg` → `assets/images/julius-olugbade/services/jo-services-finance-02.jpg`
-- `jo-services-risk-03.jpg` → `assets/images/julius-olugbade/services/jo-services-risk-03.jpg`
-- `jo-services-training-04.jpg` → `assets/images/julius-olugbade/services/jo-services-training-04.jpg`
-
-### `industries/`
-
-- `jo-industry-banking-01.jpg` → `assets/images/julius-olugbade/industries/jo-industry-banking-01.jpg`
-- `jo-industry-real-estate-02.jpg` → `assets/images/julius-olugbade/industries/jo-industry-real-estate-02.jpg`
-- `jo-industry-technology-03.jpg` → `assets/images/julius-olugbade/industries/jo-industry-technology-03.jpg`
-- `jo-industry-aviation-04.jpg` → `assets/images/julius-olugbade/industries/jo-industry-aviation-04.jpg`
-- `jo-industry-pharma-05.jpg` → `assets/images/julius-olugbade/industries/jo-industry-pharma-05.jpg`
-- `jo-industry-finance-logistics-06.jpg` → `assets/images/julius-olugbade/industries/jo-industry-finance-logistics-06.jpg`
-- `jo-industry-academia-07.jpg` → `assets/images/julius-olugbade/industries/jo-industry-academia-07.jpg`
-
-### `insights/`
-
-- `jo-insights-editorial-01.jpg` → `assets/images/julius-olugbade/insights/jo-insights-editorial-01.jpg`
-- `jo-insights-boardroom-02.jpg` → `assets/images/julius-olugbade/insights/jo-insights-boardroom-02.jpg`
-- `jo-insights-research-03.jpg` → `assets/images/julius-olugbade/insights/jo-insights-research-03.jpg`
-- `jo-insights-regulatory-04.jpg` → `assets/images/julius-olugbade/insights/jo-insights-regulatory-04.jpg`
-- `jo-insights-economic-05.jpg` → `assets/images/julius-olugbade/insights/jo-insights-economic-05.jpg`
-
-### `career/`
-
-- `jo-career-executive-01.jpg` → `assets/images/julius-olugbade/career/jo-career-executive-01.jpg`
-- `jo-career-audit-02.jpg` → `assets/images/julius-olugbade/career/jo-career-audit-02.jpg`
-- `jo-career-leadership-03.jpg` → `assets/images/julius-olugbade/career/jo-career-leadership-03.jpg`
-
-### `education/`
-
-- `jo-education-01.jpg` → `assets/images/julius-olugbade/education/jo-education-01.jpg`
-
-### `research/`
-
-- `jo-research-01.jpg` → `assets/images/julius-olugbade/research/jo-research-01.jpg`
-
-### `training/`
-
-- `jo-training-01.jpg` → `assets/images/julius-olugbade/training/jo-training-01.jpg`
-
-### `contact/`
-
-- `jo-contact-01.jpg` → `assets/images/julius-olugbade/contact/jo-contact-01.jpg`
-
-### `shared/`
-
-- `jo-og-default-01.jpg` → `assets/images/julius-olugbade/shared/jo-og-default-01.jpg`
-
+**Never create a generic image gallery to compensate for missing placement.** Images must remain attached to the semantic section they describe.

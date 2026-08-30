@@ -333,9 +333,6 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
     }
 }
 
-/* FINAL CANONICAL IMAGE SYSTEM */
-.jo-canonical-media{width:100%;max-width:1180px;margin:56px auto 0;padding:0 24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;box-sizing:border-box}
-.jo-canonical-image{display:block!important;visibility:visible!important;opacity:1!important;width:100%;margin:0;overflow:hidden;border-radius:4px}
-.jo-canonical-image img{display:block!important;visibility:visible!important;opacity:1!important;width:100%;max-width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
-.jo-canonical-hero{grid-column:1/-1}.jo-canonical-hero img{aspect-ratio:16/9}.jo-canonical-portrait img{aspect-ratio:4/5}
-@media(max-width:767px){.jo-canonical-media{grid-template-columns:1fr;padding:0 18px;gap:20px}.jo-canonical-hero{grid-column:auto}}
+
+/* v10 image loading rule: existing assets render immediately; a missing asset removes only its own slot. */
+.jo-image-slot{display:block!important;visibility:visible;opacity:1}.jo-image-slot img{display:block!important;width:100%;max-width:100%;height:auto;visibility:visible;opacity:1}
