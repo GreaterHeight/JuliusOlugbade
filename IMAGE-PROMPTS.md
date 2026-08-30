@@ -312,3 +312,13 @@ The Discourse / Insights landing page is a visual index, not a hero-only page.
 - When the dedicated JPG is added to `assets/images/julius-olugbade/insights/` with its exact filename, it automatically takes precedence over the fallback.
 - The fallback is a display safeguard only; it does not replace the authoritative prompt filename.
 
+
+---
+
+## Site-wide image wiring and fallback rule
+
+Every prompt-named JPG is an authoritative filename. The website must reference that exact filename in its intended section.
+
+If an exact prompt-named JPG has not yet been generated, **do not create a fake filename or leave a broken `<img>` source**. Use a clearly relevant supplied JPG as a temporary fallback. The fallback must be replaced automatically/explicitly when the exact generated JPG is added.
+
+A missing generated image must therefore never produce a broken-image icon or an empty image area on a live content page.

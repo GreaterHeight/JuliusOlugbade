@@ -406,3 +406,37 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
   .discourse-detail .detail-cta {display:block; padding:28px;}
   .discourse-detail .detail-cta .button {display:inline-block; margin-top:12px;}
 }
+
+/* Services image system */
+.jo-service-card-image {
+    margin: -1px -1px 18px;
+    overflow: hidden;
+}
+.jo-service-card-image img {
+    display:block !important;
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+}
+.jo-service-detail-image {
+    margin:28px 0 46px;
+    overflow:hidden;
+}
+.jo-service-detail-image img {
+    display:block !important;
+    width:100%;
+    aspect-ratio:16/7;
+    object-fit:cover;
+}
+
+/* Site-wide content page visual */
+.jo-page-visual {
+  margin: 28px 0 42px;
+  overflow: hidden;
+}
+.jo-page-visual img {
+  display:block !important;
+  width:100%;
+  aspect-ratio:16/7;
+  object-fit:cover;
+}
