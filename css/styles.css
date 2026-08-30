@@ -336,3 +336,32 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
 
 /* v10 image loading rule: existing assets render immediately; a missing asset removes only its own slot. */
 .jo-image-slot{display:block!important;visibility:visible;opacity:1}.jo-image-slot img{display:block!important;width:100%;max-width:100%;height:auto;visibility:visible;opacity:1}
+
+/* ------------------------------------------------------------------
+   FINAL SEMANTIC IMAGE COMPONENTS
+   Images belong to their actual content component. They are never
+   appended as a generic gallery or injected into the first card.
+   ------------------------------------------------------------------ */
+.jo-card-image {
+    display: block;
+    width: calc(100% + 52px);
+    margin: -26px -26px 22px;
+    overflow: hidden;
+    border-radius: 0;
+}
+.jo-card-image img {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.jo-card-image + .index-no {
+    margin-top: 0;
+}
+@media (max-width: 767px) {
+    .jo-card-image {
+        width: calc(100% + 36px);
+        margin: -18px -18px 18px;
+    }
+}

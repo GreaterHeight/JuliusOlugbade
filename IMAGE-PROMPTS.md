@@ -342,3 +342,24 @@ The image architecture is **semantic, not gallery-based**. Each image is wired t
 ## Non-negotiable implementation rule
 
 **Never create a generic image gallery to compensate for missing placement.** Images must remain attached to the semantic section they describe.
+
+
+---
+
+# FINAL IMPLEMENTATION CONTRACT — READ BEFORE GENERATING
+
+For every prompt, the first lines must identify the exact output filename and website destination:
+
+### `EXACT-FILENAME.jpg` — Website section / visual role
+<!-- OUTPUT FILENAME: EXACT-FILENAME.jpg -->
+<!-- WEBSITE FOLDER: assets/images/julius-olugbade/SECTION/ -->
+<!-- WEBSITE PAGE: /page/path/ -->
+<!-- WEBSITE COMPONENT: Exact semantic component/card/section -->
+<!-- WEBSITE ROLE: Exact purpose -->
+<!-- DISPLAY: Aspect ratio / crop guidance -->
+
+The generated image must be saved as the exact JPG filename and copied into the exact website folder. The HTML component is already wired to that exact file. **Do not manually edit HTML to make a newly generated image appear.**
+
+The image must be semantically paired with its component. Never implement images as a generic gallery merely because multiple files exist.
+
+See `IMAGE-PLACEMENT-MAP.md` for the authoritative mapping.
