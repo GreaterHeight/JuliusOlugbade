@@ -298,3 +298,89 @@ The website HTML contains a dedicated image slot for each production asset. The 
 
 ### Critical implementation rule
 The HTML references the exact JPG path. When the correctly named JPG is placed in that exact folder, it renders in the corresponding slot. Missing assets are removed by the image loader so they cannot create broken-image gaps.
+
+
+---
+# FINAL IMAGE IMPLEMENTATION CONTRACT
+
+
+**JPG is the authoritative master format.** Every prompt must begin with the exact filename in backticks and an OUTPUT FILENAME comment, for example:
+
+
+### `jo-home-hero-01.jpg` — Homepage hero / principal professional identity visual (16:9 master)
+<!-- OUTPUT FILENAME: jo-home-hero-01.jpg -->
+
+
+Create the image...
+
+
+After generation, copy the JPG to the exact folder specified in this document. **No HTML editing is required.** The website is wired to the canonical path and will display the image automatically when the file exists. WebP may be generated only as a later performance derivative.
+
+
+## Canonical folders
+
+
+### `home/`
+
+- `jo-home-hero-01.jpg` → `assets/images/julius-olugbade/home/jo-home-hero-01.jpg`
+- `jo-home-advisory-01.jpg` → `assets/images/julius-olugbade/home/jo-home-advisory-01.jpg`
+- `jo-home-audit-01.jpg` → `assets/images/julius-olugbade/home/jo-home-audit-01.jpg`
+- `jo-home-training-01.jpg` → `assets/images/julius-olugbade/home/jo-home-training-01.jpg`
+
+### `about/`
+
+- `jo-about-portrait-01.jpg` → `assets/images/julius-olugbade/about/jo-about-portrait-01.jpg`
+- `jo-about-professional-02.jpg` → `assets/images/julius-olugbade/about/jo-about-professional-02.jpg`
+- `jo-about-academic-03.jpg` → `assets/images/julius-olugbade/about/jo-about-academic-03.jpg`
+
+### `services/`
+
+- `jo-services-audit-01.jpg` → `assets/images/julius-olugbade/services/jo-services-audit-01.jpg`
+- `jo-services-finance-02.jpg` → `assets/images/julius-olugbade/services/jo-services-finance-02.jpg`
+- `jo-services-risk-03.jpg` → `assets/images/julius-olugbade/services/jo-services-risk-03.jpg`
+- `jo-services-training-04.jpg` → `assets/images/julius-olugbade/services/jo-services-training-04.jpg`
+
+### `industries/`
+
+- `jo-industry-banking-01.jpg` → `assets/images/julius-olugbade/industries/jo-industry-banking-01.jpg`
+- `jo-industry-real-estate-02.jpg` → `assets/images/julius-olugbade/industries/jo-industry-real-estate-02.jpg`
+- `jo-industry-technology-03.jpg` → `assets/images/julius-olugbade/industries/jo-industry-technology-03.jpg`
+- `jo-industry-aviation-04.jpg` → `assets/images/julius-olugbade/industries/jo-industry-aviation-04.jpg`
+- `jo-industry-pharma-05.jpg` → `assets/images/julius-olugbade/industries/jo-industry-pharma-05.jpg`
+- `jo-industry-finance-logistics-06.jpg` → `assets/images/julius-olugbade/industries/jo-industry-finance-logistics-06.jpg`
+- `jo-industry-academia-07.jpg` → `assets/images/julius-olugbade/industries/jo-industry-academia-07.jpg`
+
+### `insights/`
+
+- `jo-insights-editorial-01.jpg` → `assets/images/julius-olugbade/insights/jo-insights-editorial-01.jpg`
+- `jo-insights-boardroom-02.jpg` → `assets/images/julius-olugbade/insights/jo-insights-boardroom-02.jpg`
+- `jo-insights-research-03.jpg` → `assets/images/julius-olugbade/insights/jo-insights-research-03.jpg`
+- `jo-insights-regulatory-04.jpg` → `assets/images/julius-olugbade/insights/jo-insights-regulatory-04.jpg`
+- `jo-insights-economic-05.jpg` → `assets/images/julius-olugbade/insights/jo-insights-economic-05.jpg`
+
+### `career/`
+
+- `jo-career-executive-01.jpg` → `assets/images/julius-olugbade/career/jo-career-executive-01.jpg`
+- `jo-career-audit-02.jpg` → `assets/images/julius-olugbade/career/jo-career-audit-02.jpg`
+- `jo-career-leadership-03.jpg` → `assets/images/julius-olugbade/career/jo-career-leadership-03.jpg`
+
+### `education/`
+
+- `jo-education-01.jpg` → `assets/images/julius-olugbade/education/jo-education-01.jpg`
+
+### `research/`
+
+- `jo-research-01.jpg` → `assets/images/julius-olugbade/research/jo-research-01.jpg`
+
+### `training/`
+
+- `jo-training-01.jpg` → `assets/images/julius-olugbade/training/jo-training-01.jpg`
+
+### `contact/`
+
+- `jo-contact-01.jpg` → `assets/images/julius-olugbade/contact/jo-contact-01.jpg`
+
+### `shared/`
+
+- `jo-og-default-01.jpg` → `assets/images/julius-olugbade/shared/jo-og-default-01.jpg`
+
