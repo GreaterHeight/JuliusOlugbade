@@ -440,3 +440,59 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
   aspect-ratio:16/7;
   object-fit:cover;
 }
+
+/* Service detail v12 */
+.service-detail-heading{
+  display:grid;
+  grid-template-columns:minmax(0,1.25fr) minmax(280px,.75fr);
+  gap:56px;
+  align-items:end;
+  padding:18px 0 38px;
+}
+.service-detail-heading h1{margin-bottom:0}
+.service-detail-lead{max-width:520px;font-size:1.05rem;line-height:1.75;margin:0}
+.service-hero-image{margin:0 0 58px;overflow:hidden}
+.service-hero-image img{display:block;width:100%;aspect-ratio:16/7;object-fit:cover}
+.service-capability-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(300px,.75fr);
+  gap:72px;
+  align-items:start;
+  padding:0 0 70px;
+}
+.service-capability-copy h2{max-width:650px}
+.service-capability-copy>p{max-width:700px;line-height:1.8}
+.service-capability-aside{padding-top:18px}
+.service-capability-aside h3{margin-bottom:14px}
+.service-capability-aside>p{line-height:1.8}
+.service-evidence{margin-top:28px;padding:26px 28px;background:#e7ecf5;border-left:3px solid #3268c8}
+.service-evidence h4{margin:0 0 10px}
+.service-evidence p{margin:0;line-height:1.7}
+.service-scope-list{padding:0;margin:24px 0 0;list-style:none}
+.service-scope-list li{padding:12px 0;border-top:1px solid rgba(18,25,120,.14)}
+.service-scope-list li:before{content:"01";display:inline-block;width:42px;font-size:.7rem;letter-spacing:.08em;font-weight:700}
+.service-scope-list li:nth-child(2):before{content:"02"}
+.service-scope-list li:nth-child(3):before{content:"03"}
+.service-scope-list li:nth-child(4):before{content:"04"}
+.service-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.button-outline{background:transparent!important;color:#1017a6!important;border:1px solid #1017a6}
+.service-practice{
+  display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:70px;
+  padding:55px 0;border-top:1px solid rgba(18,25,120,.14)
+}
+.service-practice p{line-height:1.8;max-width:720px}
+.service-cta{
+  margin-top:10px;padding:44px;background:#1017a6;color:#fff;
+  display:flex;align-items:center;justify-content:space-between;gap:32px
+}
+.service-cta h2{color:#fff}
+.service-cta p{color:rgba(255,255,255,.88)}
+.service-cta .button{background:#fff;color:#1017a6;flex:none}
+@media(max-width:767px){
+ .service-detail-heading,.service-capability-grid,.service-practice{grid-template-columns:1fr;gap:28px}
+ .service-hero-image{margin-bottom:38px}
+ .service-capability-grid{padding-bottom:45px}
+ .service-cta{display:block;padding:30px}
+ .service-cta .button{display:inline-block;margin-top:12px}
+ .service-actions{display:block}.service-actions .button{display:inline-block;margin:4px 0}
+}
