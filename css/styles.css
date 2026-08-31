@@ -496,3 +496,165 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
  .service-cta .button{display:inline-block;margin-top:12px}
  .service-actions{display:block}.service-actions .button{display:inline-block;margin:4px 0}
 }
+
+
+/* =========================================================
+   HOMEPAGE HERO — Editorial Executive Portrait
+   Scoped to .hero-editorial so the rest of the site is unchanged.
+   ========================================================= */
+.hero-editorial{
+  min-height:clamp(650px,88vh,860px);
+  padding:0;
+  display:flex;
+  align-items:stretch;
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:var(--jo-primary);
+}
+.hero-editorial-media{
+  position:absolute;
+  z-index:0;
+  top:0;
+  right:0;
+  bottom:0;
+  width:62%;
+  overflow:hidden;
+}
+.hero-editorial-media img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:68% center;
+  transform:scale(1.045);
+}
+.hero-editorial-overlay{
+  position:absolute;
+  z-index:1;
+  inset:0;
+  background:
+    linear-gradient(90deg,
+      var(--jo-primary) 0%,
+      rgba(16,23,166,.98) 32%,
+      rgba(16,23,166,.72) 48%,
+      rgba(16,23,166,.12) 68%,
+      rgba(16,23,166,0) 82%),
+    linear-gradient(0deg,rgba(16,23,166,.18),rgba(16,23,166,0));
+  pointer-events:none;
+}
+.hero-editorial-inner{
+  width:min(calc(100% - 48px),var(--max));
+  min-height:clamp(650px,88vh,860px);
+  margin:0 auto;
+  padding-top:clamp(105px,12vh,145px);
+  padding-bottom:clamp(65px,8vh,90px);
+  position:relative;
+  z-index:2;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.hero-editorial-copy{
+  width:min(57%,700px);
+}
+.hero-editorial .current-status{
+  display:flex;
+  flex-direction:column;
+  gap:3px;
+  margin-top:16px;
+}
+.hero-editorial h1{
+  font-size:clamp(4.2rem,8.1vw,8.2rem);
+  line-height:.84;
+  letter-spacing:-.055em;
+  margin:.28em 0 .24em;
+  text-wrap:balance;
+}
+.hero-editorial-copy p{
+  max-width:590px;
+  font-size:clamp(1rem,1.25vw,1.18rem);
+  line-height:1.65;
+  color:rgba(251,255,241,.88);
+}
+.hero-editorial .actions{margin-top:32px}
+.hero-editorial-outline{
+  color:var(--jo-ivory);
+  border-color:rgba(251,255,241,.7);
+  background:transparent;
+}
+.hero-editorial-outline:hover{
+  background:var(--jo-ivory);
+  color:var(--jo-primary);
+}
+.hero-editorial-caption{
+  position:absolute;
+  right:0;
+  bottom:clamp(55px,7vh,80px);
+  width:min(31%,390px);
+  padding-left:24px;
+  border-left:2px solid var(--jo-secondary);
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.hero-editorial-caption strong{
+  font-family:Georgia,serif;
+  font-size:clamp(1.1rem,1.55vw,1.45rem);
+  line-height:1.18;
+  font-weight:400;
+}
+@media(max-width:900px){
+  .hero-editorial-media{width:67%}
+  .hero-editorial-copy{width:min(62%,650px)}
+  .hero-editorial h1{font-size:clamp(3.8rem,9vw,6.5rem)}
+  .hero-editorial-caption{width:29%}
+}
+@media(max-width:767px){
+  .hero-editorial{
+    min-height:auto;
+    padding:0;
+    display:block;
+  }
+  .hero-editorial-media{
+    position:relative;
+    width:100%;
+    height:min(76vw,520px);
+  }
+  .hero-editorial-media img{
+    transform:none;
+    object-position:66% center;
+  }
+  .hero-editorial-overlay{
+    inset:auto 0 0 0;
+    height:45%;
+    background:linear-gradient(0deg,var(--jo-primary) 0%,rgba(16,23,166,.78) 52%,rgba(16,23,166,0) 100%);
+  }
+  .hero-editorial-inner{
+    width:min(calc(100% - 28px),var(--max));
+    min-height:0;
+    padding:0 0 60px;
+    margin-top:-38px;
+  }
+  .hero-editorial-copy{width:100%}
+  .hero-editorial .current-status{margin-top:10px}
+  .hero-editorial h1{
+    font-size:clamp(3.15rem,15vw,5rem);
+    line-height:.86;
+    margin:.24em 0 .28em;
+  }
+  .hero-editorial-copy p{font-size:1rem;max-width:100%}
+  .hero-editorial .actions{margin-top:24px}
+  .hero-editorial .actions .btn{width:100%}
+  .hero-editorial-caption{
+    position:relative;
+    right:auto;
+    bottom:auto;
+    width:100%;
+    margin-top:44px;
+    padding-left:18px;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-editorial-media img{transform:none}
+}
