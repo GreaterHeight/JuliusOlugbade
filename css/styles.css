@@ -668,3 +668,136 @@ details{border-top:1px solid var(--line);padding:18px 0}details:last-child{borde
 @media(prefers-reduced-motion:reduce){
   .hero-editorial-media img{transform:none}
 }
+
+
+/* =========================================================
+   HOMEPAGE PROFESSIONAL THESIS v22
+   Balanced editorial two-column composition.
+   ========================================================= */
+.thesis-section{
+  padding-top:clamp(78px,8vw,118px);
+  padding-bottom:clamp(82px,9vw,126px);
+}
+.thesis-intro{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  gap:clamp(42px,7vw,100px);
+  align-items:center;
+}
+.thesis-statement{
+  max-width:620px;
+  padding-right:clamp(0px,2vw,24px);
+}
+.thesis-statement h2{
+  margin:.38em 0 .42em;
+  font-size:clamp(3rem,5.1vw,5.55rem);
+  line-height:.91;
+  letter-spacing:-.055em;
+}
+.thesis-rule{
+  width:74px;
+  height:2px;
+  background:var(--jo-secondary);
+  margin:25px 0 22px;
+}
+.thesis-lead{
+  max-width:510px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(1.12rem,1.45vw,1.42rem);
+  line-height:1.35;
+}
+.thesis-visual{
+  min-width:0;
+}
+.thesis-visual .jo-home-content-image{
+  margin:0;
+}
+.thesis-visual img{
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  display:block;
+}
+.thesis-visual figcaption{
+  margin-top:9px;
+  font-size:.68rem;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:var(--jo-muted);
+}
+.thesis-lower{
+  margin-top:clamp(50px,6vw,78px);
+  padding-top:clamp(30px,4vw,48px);
+  border-top:1px solid rgba(20,31,120,.16);
+  display:grid;
+  grid-template-columns:.72fr 1.28fr;
+  gap:clamp(35px,5vw,70px);
+  align-items:start;
+}
+.thesis-context{
+  max-width:410px;
+}
+.thesis-context p{
+  margin-top:13px;
+  line-height:1.62;
+}
+.thesis-capabilities{
+  margin:0;
+  gap:12px;
+}
+.thesis-capabilities .card{
+  min-height:220px;
+  display:flex;
+  flex-direction:column;
+}
+.thesis-capabilities .card p{
+  flex:1;
+}
+@media(max-width:900px){
+  .thesis-intro{
+    gap:45px;
+  }
+  .thesis-statement h2{
+    font-size:clamp(2.75rem,6vw,4.5rem);
+  }
+  .thesis-lower{
+    grid-template-columns:1fr;
+  }
+  .thesis-context{
+    max-width:680px;
+  }
+}
+@media(max-width:767px){
+  .thesis-section{
+    padding-top:62px;
+    padding-bottom:70px;
+  }
+  .thesis-intro{
+    grid-template-columns:1fr;
+    gap:34px;
+  }
+  .thesis-statement{
+    max-width:none;
+  }
+  .thesis-statement h2{
+    font-size:clamp(2.8rem,12vw,4.25rem);
+  }
+  .thesis-lead{
+    font-size:1.14rem;
+  }
+  .thesis-visual img{
+    aspect-ratio:16/10;
+  }
+  .thesis-lower{
+    margin-top:42px;
+    padding-top:28px;
+  }
+  .thesis-capabilities{
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media(max-width:480px){
+  .thesis-capabilities{
+    grid-template-columns:1fr;
+  }
+}
