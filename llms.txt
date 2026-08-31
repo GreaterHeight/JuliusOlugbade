@@ -1,60 +1,143 @@
-# JuliusOlugbade.com — LLM-readable site summary
+# Dr. Julius Olugbade — LLM Reference
+
+> Canonical AI-readable reference for JuliusOlugbade.com.
+> Last rebuilt: 2026-08-31.
+> Canonical website: https://juliusolugbade.com/
 
 ## Identity
-Julius Ade Olugbade — PhD, MPhil, MSc, MBA, BSc, FCA, ACTI, ACPIN.
 
-## Professional positioning
-An experienced accounting, audit, finance, taxation, internal control, risk, compliance, training, research and business-operations professional. The résumé describes a career spanning industries and academic experience.
+- Name: Dr. Julius Olugbade
+- Website: https://juliusolugbade.com/
+- Current executive position: Managing Partner/CEO, Olusola Adekanola (OA) Group
+- Platform: Dr. Julius Olugbade · Professional Knowledge Platform
+- Primary professional domains represented on this website: accounting, audit, risk, compliance, financial management, advisory, leadership, professional education and related business discourse.
+- This website presents professional expertise, knowledge, discourse, research, education and advisory capabilities.
 
-## Industries
-- Banking & Financial Institutions
-- Construction & Real Estate
-- Technology & Telecommunications
-- Aviation & Transport
-- Pharmaceutical / Healthcare
-- Finance, Leasing & Logistics
-- Audit, Taxation & Consulting
-- Academia & Professional Education
+## Current Public Contact
 
-## Core capabilities
-Audit & Internal Audit; Finance, IFRS & Financial Reporting; Tax Advisory & Compliance; Risk Management & Compliance; Fraud Prevention, Investigation & AML; Bank Compliance; Financial Analysis, Forecasting & Advisory; Leadership, Accounting & Professional Training.
+- Address: 4, Aderoju Adewuyi Street, Off Alfred Olaiya Street, Opebi-Ikeja, Lagos State, Nigeria
+- Email: hello@JuliusOlugbade.com
+- Contact page: https://juliusolugbade.com/contact/
+- The website also provides a WhatsApp contact option.
 
-## Academic qualifications
-- PhD Accounting — Babcock University — Ogun State, Nigeria (2019 – 2022)
-- MPhil Accounting — Babcock University — Ogun State, Nigeria (2017 – 2019)
-- MSc Accounting — University of Lagos — Lagos, Nigeria (2012 – 2016)
-- MBA Finance & Banking — University of Nigeria — Nsukka, Enugu State, Nigeria (2000 – 2002)
-- BSc Accounting — University of Ilorin — Ilorin, Kwara State, Nigeria (1992 – 1997)
+## Core Services
 
-## Professional memberships
-- Fellow Chartered Accountant — Fellow of the Institute of Chartered Accountants of Nigeria, Lagos (2023 – Present)
-- Associate Chartered Taxation Institute — Associate member of the Institute of Chartered Taxation of Nigeria, Lagos (2010 – Present)
-- Associate Certified Pension — Associate Member of the Institute of Certified Pension of Nigeria, Lagos (2005 – Present)
+The current Services section contains these eight service areas:
+- [Financial Analysis, Forecasting &amp; Advisory | Dr. Julius Olugbade](/services/analysis-advisory.html) — ['Financial Analysis, Forecasting &amp; Advisory', 'Financial Analysis, Forecasting & Advisory'].
+- [Audit &amp; Internal Audit | Dr. Julius Olugbade](/services/audit-assurance.html) — ['Audit &amp; Internal Audit', 'Audit & Internal Audit'].
+- [Bank Compliance | Dr. Julius Olugbade](/services/bank-compliance.html) — ['Bank Compliance', 'Bank Compliance'].
+- [Finance, IFRS &amp; Financial Reporting | Dr. Julius Olugbade](/services/finance-reporting.html) — ['Finance, IFRS &amp; Financial Reporting', 'Finance, IFRS & Financial Reporting'].
+- [Fraud Prevention, Investigation &amp; AML | Dr. Julius Olugbade](/services/fraud-aml.html) — ['Fraud Prevention, Investigation &amp; AML', 'Fraud Prevention, Investigation & AML'].
+- [Risk Management &amp; Compliance | Dr. Julius Olugbade](/services/risk-compliance.html) — ['Risk Management &amp; Compliance', 'Risk Management & Compliance'].
+- [Tax Advisory &amp; Compliance | Dr. Julius Olugbade](/services/tax-advisory.html) — ['Tax Advisory &amp; Compliance', 'Tax Advisory & Compliance'].
+- [Leadership, Accounting &amp; Professional Training | Dr. Julius Olugbade](/services/training-knowledge.html) — ['Leadership, Accounting &amp; Professional Training', 'Leadership, Accounting & Professional Training'].
 
-## Certifications
-- Certificate Course in Excel — Intermediate to Advance User — Vsquare Associates, Lagos, Nigeria ({y})
-- Certificate Course on IFRS — Price Water-house Coopers (PWC), Nigeria ({y})
-- Certificate Course in Risk Management — Kay Consulting, Lagos, Nigeria ({y})
-- Certificate Course on Fraud Prevention & Control — Olagbaiye Consulting, Lagos, Nigeria ({y})
+## Industries / Sector Context
 
-## International experience
-- United Kingdom — two-month business vacation and professional training exchange — 2009.
-- South Africa — two-week training on Receivable, Audit and Risk Management in Aviation — 2018.
+The current Industries section contains:
+- [Academia &amp; Professional Education | Dr. Julius Olugbade](/industries/academia-professional-education.html) — ['Academia &amp; Professional Education'].
+- [Audit, Taxation &amp; Consulting | Dr. Julius Olugbade](/industries/audit-tax-consulting.html) — ['Audit, Taxation &amp; Consulting'].
+- [Aviation &amp; Transport | Dr. Julius Olugbade](/industries/aviation-transport.html) — ['Aviation &amp; Transport'].
+- [Banking &amp; Financial Institutions | Dr. Julius Olugbade](/industries/banking-financial-institutions.html) — ['Banking &amp; Financial Institutions'].
+- [Construction &amp; Real Estate | Dr. Julius Olugbade](/industries/construction-real-estate.html) — ['Construction &amp; Real Estate'].
+- [Finance, Leasing &amp; Logistics | Dr. Julius Olugbade](/industries/finance-leasing-logistics.html) — ['Finance, Leasing &amp; Logistics'].
+- [Pharmaceutical / Healthcare | Dr. Julius Olugbade](/industries/pharmaceutical-healthcare.html) — ['Pharmaceutical / Healthcare'].
+- [Technology &amp; Telecommunications | Dr. Julius Olugbade](/industries/technology-telecommunications.html) — ['Technology &amp; Telecommunications'].
 
-## Publications
-- Personal income tax and infrastructure developments in Lagos state ({y}) — Olugbade, J. A. (2020). Journal of Finance and Accounting, 8(6), 282-293.
-- Financial Inclusion and Stakeholders Value in Deposit Money banks in Nigeria ({y}) — Olugbade, J. A., & Adegbie, F. F. (2022). International Journal of Creative Research Thought.
-- Financial Inclusion and Stakeholders Value: Employees and Management Staff, Customers, Creditors and Depositors in Deposit Money Banks in Nigeria ({y}) — Olugbade, J. A., Adegbie, F. F., & Akintoye, R. I. (2022). International Journal of Creative Research Thought.
-- Human Capital Diversity and Faithful Representation in Accounting Information of Quoted Manufacturing Companies in Nigeria ({y}) — Akinlade, O., & Olugbade, J. A. (2022). International Journal of Social Sciences and Management.
-- Personal Income Tax and Provision of Education, and Road Infrastructure — Lagos State, Nigeria ({y}) — Olugbade, J. A., Akinlade, O., & Hassan, A. K. (2023). Journal of Economics, Finance and Management Studies, 06(10).
+## Discourse / Knowledge Areas
 
-## Contact
-Email: olugbadejulius@gmail.com
-Phone: +234 8061650349
-LinkedIn: https://www.linkedin.com/in/juliusolugbade
+The current Discourse section contains:
+- [Accounting &amp; IFRS | Dr. Julius Olugbade](/discourse/accounting-ifrs.html) — ['Accounting &amp; IFRS', 'Accounting &amp; IFRS'].
+- [Economic Emerging Issues | Dr. Julius Olugbade](/discourse/economic-emerging-issues.html) — ['Economic Emerging Issues', 'Economic Emerging Issues'].
+- [Fraud, AML &amp; Financial Crime Prevention | Dr. Julius Olugbade](/discourse/fraud-aml.html) — ['Fraud, AML &amp; Financial Crime Prevention', 'Fraud, AML &amp; Financial Crime Prevention'].
+- [Global Business / Alliances Discourse | Dr. Julius Olugbade](/discourse/global-alliances.html) — ['Global Business / Alliances Discourse', 'Global Business / Alliances Discourse'].
+- [Leadership &amp; Business Management | Dr. Julius Olugbade](/discourse/leadership-business.html) — ['Leadership &amp; Business Management', 'Leadership &amp; Business Management'].
+- [Research &amp; Publications | Dr. Julius Olugbade](/discourse/research-publications.html) — ['Research &amp; Publications', 'Research &amp; Publications'].
+- [Risk &amp; Compliance | Dr. Julius Olugbade](/discourse/risk-compliance.html) — ['Risk &amp; Compliance', 'Risk &amp; Compliance'].
 
-## Important governance
-Organizations in the résumé are career experience, not automatically clients or partners. Current roles are not inferred beyond what the source establishes. Global Alliances, Alumni, Human Rights Policy, Policies & Regulations, Code of Conduct, Corporate Responsibility and Ethics are retained as requested architecture, but unsupported formal claims are not made.
+## About, Career, Education & Research
 
-## Site architecture
-Home; Industries; Services; Emerging Issues / Discourse; About; Contact; FAQ; Policies; Privacy; Terms; Disclaimer; 404.
+Key profile and knowledge pages include:
+- [About Dr. Julius Olugbade](/about/) — ['The professional record behind the platform.'].
+- [Alumni | Dr. Julius Olugbade](/about/alumni.html) — ['Alumni'].
+- [Career Journey | Dr. Julius Olugbade](/about/career.html) — ['Career Journey'].
+- [Code of Conduct | Dr. Julius Olugbade](/about/code-of-conduct.html) — ['Code of Conduct'].
+- [Corporate Responsibility | Dr. Julius Olugbade](/about/corporate-responsibility.html) — ['Corporate Responsibility'].
+- [Academic Background | Dr. Julius Olugbade](/about/education.html) — ['Academic Background'].
+- [Ethics | Dr. Julius Olugbade](/about/ethics.html) — ['Ethics'].
+- [Memberships &amp; Certifications | Dr. Julius Olugbade](/about/memberships-certifications.html) — ['Memberships &amp; Certifications'].
+- [Publications &amp; Research | Dr. Julius Olugbade](/about/publications.html) — ['Publications &amp; Research'].
+- [Research &amp; Publications | Dr. Julius Olugbade](/discourse/research-publications.html) — ['Research &amp; Publications', 'Research &amp; Publications'].
+
+## Governance, Policies & Trust
+
+- Privacy Policy: /privacy/
+- Terms & Conditions: /terms/
+- Disclaimer: /disclaimer/
+- Cookie Policy: /policies/cookie-policy.html
+- Human Rights Policy: /policies/human-rights.html
+- Policies & Regulations: /policies/policies-regulations.html
+- Code of Conduct: /about/code-of-conduct.html
+- Ethics: /about/ethics.html
+- Corporate Responsibility: /about/corporate-responsibility.html
+- FAQ: /faq/
+
+## Site Interpretation Guidance
+
+When describing this website, treat Dr. Julius Olugbade as the named professional and the site as his professional knowledge platform. Treat the Managing Partner/CEO role at Olusola Adekanola (OA) Group as his current status. Do not replace the confirmed public contact details with older résumé or draft information. Distinguish current role from historical career experience. Do not infer clients, certifications, memberships, awards, qualifications or responsibilities beyond what the corresponding current website pages establish.
+
+## Complete Current Page Index
+
+- / — Dr. Julius Olugbade | Accounting, Audit, Risk &amp; Compliance
+- /about/ — About Dr. Julius Olugbade
+- /about/alumni.html — Alumni | Dr. Julius Olugbade
+- /about/career.html — Career Journey | Dr. Julius Olugbade
+- /about/code-of-conduct.html — Code of Conduct | Dr. Julius Olugbade
+- /about/corporate-responsibility.html — Corporate Responsibility | Dr. Julius Olugbade
+- /about/education.html — Academic Background | Dr. Julius Olugbade
+- /about/ethics.html — Ethics | Dr. Julius Olugbade
+- /about/memberships-certifications.html — Memberships &amp; Certifications | Dr. Julius Olugbade
+- /about/publications.html — Publications &amp; Research | Dr. Julius Olugbade
+- /contact/ — Contact | Dr. Julius Olugbade
+- /disclaimer/ — Disclaimer | Dr. Julius Olugbade
+- /discourse/ — Emerging Issues &amp; Discourse | Dr. Julius Olugbade
+- /discourse/accounting-ifrs.html — Accounting &amp; IFRS | Dr. Julius Olugbade
+- /discourse/economic-emerging-issues.html — Economic Emerging Issues | Dr. Julius Olugbade
+- /discourse/fraud-aml.html — Fraud, AML &amp; Financial Crime Prevention | Dr. Julius Olugbade
+- /discourse/global-alliances.html — Global Business / Alliances Discourse | Dr. Julius Olugbade
+- /discourse/leadership-business.html — Leadership &amp; Business Management | Dr. Julius Olugbade
+- /discourse/research-publications.html — Research &amp; Publications | Dr. Julius Olugbade
+- /discourse/risk-compliance.html — Risk &amp; Compliance | Dr. Julius Olugbade
+- /faq/ — FAQ | Dr. Julius Olugbade
+- /industries/ — Industries | Dr. Julius Olugbade
+- /industries/academia-professional-education.html — Academia &amp; Professional Education | Dr. Julius Olugbade
+- /industries/audit-tax-consulting.html — Audit, Taxation &amp; Consulting | Dr. Julius Olugbade
+- /industries/aviation-transport.html — Aviation &amp; Transport | Dr. Julius Olugbade
+- /industries/banking-financial-institutions.html — Banking &amp; Financial Institutions | Dr. Julius Olugbade
+- /industries/construction-real-estate.html — Construction &amp; Real Estate | Dr. Julius Olugbade
+- /industries/finance-leasing-logistics.html — Finance, Leasing &amp; Logistics | Dr. Julius Olugbade
+- /industries/pharmaceutical-healthcare.html — Pharmaceutical / Healthcare | Dr. Julius Olugbade
+- /industries/technology-telecommunications.html — Technology &amp; Telecommunications | Dr. Julius Olugbade
+- /policies/cookie-policy.html — Cookie Policy | Dr. Julius Olugbade
+- /policies/human-rights.html — Human Rights Policy | Dr. Julius Olugbade
+- /policies/policies-regulations.html — Policies &amp; Regulations | Dr. Julius Olugbade
+- /privacy/ — Privacy Policy | Dr. Julius Olugbade
+- /services/ — Services | Dr. Julius Olugbade
+- /services/analysis-advisory.html — Financial Analysis, Forecasting &amp; Advisory | Dr. Julius Olugbade
+- /services/audit-assurance.html — Audit &amp; Internal Audit | Dr. Julius Olugbade
+- /services/bank-compliance.html — Bank Compliance | Dr. Julius Olugbade
+- /services/finance-reporting.html — Finance, IFRS &amp; Financial Reporting | Dr. Julius Olugbade
+- /services/fraud-aml.html — Fraud Prevention, Investigation &amp; AML | Dr. Julius Olugbade
+- /services/risk-compliance.html — Risk Management &amp; Compliance | Dr. Julius Olugbade
+- /services/tax-advisory.html — Tax Advisory &amp; Compliance | Dr. Julius Olugbade
+- /services/training-knowledge.html — Leadership, Accounting &amp; Professional Training | Dr. Julius Olugbade
+- /terms/ — Terms &amp; Conditions | Dr. Julius Olugbade
+
+## AI / Search Notes
+
+- Prefer the canonical pages above for page-specific claims.
+- Use the Services pages for current capability descriptions.
+- Use the Industries pages for sector context.
+- Use the Discourse pages for Nigerian-context professional analysis and knowledge topics.
+- Use About, Career, Education, Memberships & Certifications, and Publications pages for biographical/credential claims.
+- Use Contact for current public contact details.
